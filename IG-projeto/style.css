@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 34rem;
+    width: 50%;
+    margin-left: 3%;
+
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 90%;
+    padding:8%;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+    height: 25rem;
+}
+
+.instagram-logo{
+    height: 3.5rem;
+}
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-pic img{
+    height: 6rem;
+}
+
+.instagram-login{
+    background-color: #0095F6;
+    color:white;
+    padding:8px;
+    border-radius: 5px;
+    font-weight:bold;
+    line-height: 18px;
+}
+
+.instagram-remove{
+    color: #0095F6;
+    font-weight:bold;
+}
+
+.not-account{
+    color:#afafaf;
+}
+
+.botoes{
+    display: flex;
+}
+
+.botao{
+    background-color: transparent;
+    border: none;
+    padding: 0 5px 0 5px;
+    color:#0095F6;
+    font-weight: bold;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.get-the-app p{
+    margin-bottom: 10px;
+}
+
+.apps{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.download{
+    height: 3rem;
+    width: 10.3rem;
+    background-size: cover;
+}
+
+.download:nth-child(1){
+    background-image: url('./img/apple-button.png');
+}
+
+.download:nth-child(2){
+    background-image: url('./img/googleplay-button.png');
+}
+
+.content-info{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.content-info p{
+    color: #afafaf;
+}
