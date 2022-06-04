@@ -149,3 +149,34 @@ body{
 .content-info p{
     color: #afafaf;
 }
+
+/* media queries */
+
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    .body{
+        background-color: white;
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display:none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+}
