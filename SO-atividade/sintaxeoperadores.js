@@ -32,7 +32,8 @@ function biggerSmaller(num1, num2){
 }
 
 function result(num1, num2){
+    if(!num1 || !num2) return "Defina dois números!"
     return equal(num1, num2) + biggerSmaller(num1, num2);
 }
 
-console.log(result(1, 2));
+console.log(result());
